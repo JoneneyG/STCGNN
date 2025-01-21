@@ -43,6 +43,7 @@ Precautions
                   torch
                   argparse
                   tensorboardx
+                  h5py
 - The data file must be complete and in the correct format, otherwise it may not be possible to generate training data.
 
 structure
