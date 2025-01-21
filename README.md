@@ -23,12 +23,17 @@ This is a project for traffic flow forecasting, based on the Python programming 
 1. Download and upload data files：
    Upload to the data/ folder. Take PEMS08.npz as an example, After the file is uploaded, the path is: data/PEMS08.npz.
 2. Generate training, validation, and test sets：
-   Enter the folder where generate.py or generate_training_data.py is located and run the following command to generate the data set.
-       python generate.py or python generate_training_data.py
+   Enter the folder where generate.py or generate_training_data.py is located and run the following command to generate the dataset.
+```python
+python generate.py or python generate_training_data.py
+```
    The generated data will be saved in the data/PEMS08/ folder with the file names train.npz, val.npz, and test.npz.
 3. Run the training script：
    Enter the folder where train.py is located and run the following command in the folder to start training the model.
-       python train.py
+```python
+python train.py
+```
+
 
 ## Precautions
 
