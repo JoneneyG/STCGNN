@@ -4,10 +4,6 @@ The code of article: Adaptive Spatio-Temporal Causal Graph Neural Network for Tr
 
 ---
 
-Article：Adaptive Spatio-Temporal Causal Graph Neural Network for Traffic Flow
-
- Prediction
-
 Project Brief Introduction
 
 This is a project for traffic flow forecasting, based on the Python programming language and machine learning techniques. The code is encrypted, but it can run on Linux systems, and it is recommended to use a cloud server for deployment and operation.
