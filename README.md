@@ -8,7 +8,9 @@ This is a project for traffic flow forecasting, based on the Python programming 
 
 - Operating system: Linux
 - Python version: Python 3.10
-- Recommended operating environment: cloud servers (such as AutoDL, etc.)
+- Pytorch version: PyTorch 2.1.0
+- Graphics: RTX 4090 
+- Recommended operating environment: cloud servers 
 
 ## Data preparation
 
