@@ -34,11 +34,11 @@ This is a project for traffic flow forecasting, based on the Python programming 
 - If you encounter problems during operation, please check whether all dependent packages are correctly installed in the Python environment.
 - Dependencies：
     -  scipy
-    -      numpy=1.23.5
-    -      pandas
-    -      torch
-    -      argparse
-    -      tensorboardx
+    -  numpy=1.23.5
+    -  pandas
+    -  argparse
+    -  tensorboardx
+    -  hd5py
 - The data file must be complete and in the correct format, otherwise it may not be possible to generate training data.
 
 ## Project Structure
