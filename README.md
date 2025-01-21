@@ -15,8 +15,7 @@ This is a project for traffic flow forecasting, based on the Python programming 
 ## Data preparation
 
 1. Download the traffic data file (e.g. PEMS08.npz):
-   - The data file can be downloaded from the following link: [Baidu Netdisk Link](通过网盘分享的文件：dataset
-链接: https://pan.baidu.com/s/1tUU5Z31tvf5QtoS13rKhXQ?pwd=wdmi 提取码: wdmi) or download pems traffic datasets from [ASTGCN](https://github.com/guoshnBJTU/ASTGNN/tree/main/data) and download other datasets from [DCRNN](https://github.com/liyaguang/DCRNN).
+   - The data file can be downloaded from the following link: [Baidu Netdisk Link]( https://pan.baidu.com/s/1tUU5Z31tvf5QtoS13rKhXQ?pwd=wdmi)[wdmi] or download pems traffic datasets from [ASTGCN](https://github.com/guoshnBJTU/ASTGNN/tree/main/data) and download other datasets from [DCRNN](https://github.com/liyaguang/DCRNN).
 2. Place the downloaded data file in the data folder at the root of the project.
 
 ## Run steps
