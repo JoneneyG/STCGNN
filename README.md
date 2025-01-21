@@ -1,26 +1,22 @@
-The code of article: Adaptive Spatio-Temporal Causal Graph Neural Network for Traffic Flow
+# The code of article: Adaptive Spatio-Temporal Causal Graph Neural Network for Traffic Flow  Prediction.
 
- Prediction.
-
----
-
-Project Brief Introduction
+## Project Brief Introduction
 
 This is a project for traffic flow forecasting, based on the Python programming language and machine learning techniques. The code is encrypted, but it can run on Linux systems, and it is recommended to use a cloud server for deployment and operation.
 
-Environmental requirements
+## Environmental requirements
 
 - Operating system: Linux
 - Python version: Python 3.10
 - Recommended operating environment: cloud servers (such as AutoDL, etc.)
 
-Data preparation
+## Data preparation
 
 1. Download the traffic data file (e.g. PEMS08.npz):
    - The data file can be downloaded from the following link: Baidu Netdisk Link
 2. Place the downloaded data file in the data folder at the root of the project.
 
-Run steps
+## Run steps
 
 1. Download and upload data files：
    Upload to the data/ folder. Take PEMS08.npz as an example, After the file is uploaded, the path is: data/PEMS08.npz.
@@ -32,33 +28,44 @@ Run steps
    Enter the folder where train.py is located and run the following command in the folder to start training the model.
        python train.py
 
-Precautions
+## Precautions
 
 - Make sure the Python version is 3.10 and the Linux system, otherwise it may cause operation errors.
 - If you encounter problems during operation, please check whether all dependent packages are correctly installed in the Python environment.
 - Dependencies：
-                  scipy
-                  numpy=1.23.5
-                  pandas
-                  torch
-                  argparse
-                  tensorboardx
-                  h5py
+    -  scipy
+    -      numpy=1.23.5
+    -      pandas
+    -      torch
+    -      argparse
+    -      tensorboardx
 - The data file must be complete and in the correct format, otherwise it may not be possible to generate training data.
 
-structure
+## Project Structure
 
     ├── pems08/
-    │   ├── data/
-    │   │   ├── PEMS08/
-    │   │   │   ├── train.npz
-    │   │   │   ├── val.npz
-    │   │   │   └── test.npz
-    │   ├── generate_training_data.py
-    │   └── train.py
-    └── README.md
+    |   engine.py
+    |   generate_training_data.py
+    |   model.py
+    |   train.py
+    |   util.py
+    |
+    +---data
+    |   \---sensor_graph
+    |       |   PEMS08.csv
+    |       |   PEMS08_k.csv
+    |       |
+    |       \---PEMS08-checkpoint.csv
+    |           PEMS08_k-checkpoint.csv                 
+    |
+    \---pyarmor_runtime_000000
+        |   pyarmor_runtime.so
+        |   __init__.py
+        |
+        \---__pycache__
+                __init__.cpython-310.pyc
 
-Contact Details
+## Contact Details
 
 If you encounter any problems during use, please feel free to contact the project maintainer.
 
