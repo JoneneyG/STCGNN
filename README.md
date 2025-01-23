@@ -28,6 +28,7 @@ This is a project for traffic flow forecasting, based on the Python programming 
       python generate.py or python generate_training_data.py
 ```
    The generated data will be saved in the data/PEMS08/ folder with the file names train.npz, val.npz, and test.npz.
+   
 3. Run the training script：
    Enter the folder where train.py is located and run the following command in the folder to start training the model.
 ```python
